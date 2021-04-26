@@ -7,8 +7,7 @@ BirthDate Date,
 HireDate Date,
 Address VARCHAR (40),
 City VARCHAR (30),
-PostalCode VARCHAR (15),
-ContactNumber INT )
+PostalCode VARCHAR (15) )
 
 INSERT INTO Employees
 VALUES (1,'Charity','Case','Shop Floor','19860608','20040321','608 Lightwood Road','Stoke-On-Trent','ST37EQ')
