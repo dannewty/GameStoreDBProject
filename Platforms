@@ -1,0 +1,10 @@
+CREATE TABLE Platforms (
+PlatformID INT PRIMARY KEY,
+PlatformName VARCHAR (40) )
+
+INSER INTO Platforms 
+VALUES (1,'Playstation5)
+VALUES (2,'Playstation4)
+VALUES (3,'XBOX SERIES X/S')
+VALUES (4,'Nintendo Switch')
+VALUES (5,'pc')
