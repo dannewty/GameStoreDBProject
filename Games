@@ -1,0 +1,9 @@
+CREATE TABLE Games (
+GameID INT PRIMARY KEY,
+GameName VARCHAR (40),
+SupplierID INT,
+CategoryID INT,
+Price MONEY,
+LeftInStock SMALLINT,
+OnOrder SMALLINT,
+)
