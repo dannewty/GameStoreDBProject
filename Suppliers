@@ -1,0 +1,10 @@
+CREATE TABLE Suppliers (
+SupplierID INT PRIMARY KEY,
+SupplierName VARCHAR (40),
+ContactName VARCHAR (40),
+ContactTitle VARCHAR (40),
+Address VARCHAR (40),
+City VARCHAR (20),
+PostalCode VARCHAR (10),
+Country VARCHAR (25),
+ContactNumber INT )
