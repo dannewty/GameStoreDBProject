@@ -1,5 +1,5 @@
 CREATE TABLE Games (
-GameID INT PRIMARY KEY,
+GameID INT PRIMARY KEY IDENTITY,
 GameName VARCHAR (40),
 SupplierID INT,
 CategoryID INT,
@@ -7,3 +7,25 @@ Price MONEY,
 LeftInStock SMALLINT,
 OnOrder SMALLINT,
 )
+
+INSERT INTO Games 
+VALUES('Outriders',3,6,'54.99',8,14,1)
+VALUES('Marvels Avengers',3,1,'59.99',7,46,1)
+VALUES('MotoGP',3,5,'49.99',29,6,1)
+VALUES('Marvels Spider-Man: Miles Morales',3,1,'51.99',23,11,1)
+VALUES('Fifa21',3,9,'54.99',57,5,1)
+VALUES('It Takes Two',2,10,'34.99',14,5,2)
+VALUES ('Cyberpunk 2077',2,1,'47.99',22,10,2)
+VALUES ('Call Of Duty: Black Ops Cold War',2,7,'64.99',2,35,2)
+VALUES ('Assassins Creed Valhalla',2,1,'54.99',6,20,2)
+VALUES ('Hitman 3',2,10,'54.99',9,15,2)
+VALUES ('Gears 5',1,7,'34,99',15,10,3)
+VALUES ('Immortals: Fenyx Rising',1,6,'32,99',30,0,3)
+VALUES ('Dirt 5',1,5,'24.99',25,5,3)
+VALUES ('Watch Dogs Legion',1,10,'32.99',27,3,3)
+VALUES ('NBA 2K21',1,9,'54.99',13,17,3)
+VALUES ('Mario Kart 8 Deluxe',2,5,'44.99',11,19,4)
+VALUES ('Animal Crossing: New Horizons',2,6,'44.99',4,26,4)
+VALUES ('Super Mario Party',2,2,'44.99',16,14,4)
+VALUES ('Pokemon Sword',2,3,'44.99',21,9,4)
+VALUES ('Super Smash Bros.Ultimate',2,3,'52.99',17,13,4)
