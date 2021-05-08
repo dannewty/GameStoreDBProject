@@ -6,6 +6,10 @@ CategoryID INT,
 Price MONEY,
 LeftInStock SMALLINT,
 OnOrder SMALLINT,
+PlatformID SMALLINT,
+FOREIGN KEY (SupplierID) REFERENCES Suppliers(SupplierID),
+FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID),
+FOREIGN KEY (PlatformID) REFERENCES Platforms(PlatformID) )
 )
 
 INSERT INTO Games 
