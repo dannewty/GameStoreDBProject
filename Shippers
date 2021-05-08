@@ -1,0 +1,10 @@
+CREATE TABLE Shippers (
+ShipperID INT PRIMARY KEY IDENTITY,
+CompanyName VARCHAR (40),
+ContactNumber VARCHAR (40),
+)
+
+INSERT INTO Shippers 
+VALUES ('UPS','03457877877')
+VALUES ('FedEx','0345 607 0809')
+
