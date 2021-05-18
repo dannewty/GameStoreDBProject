@@ -1,0 +1,9 @@
+CREATE TABLE Branch (
+BranchID INT PRIMARY KEY IDENTITY,
+BranchName VARCHAR (40) NOT NULL,
+ManagerID INT FOREIGN KEY REFERENCES Employees (EmployeeID),
+)
+
+INSERT INTO Branch (BranchName) VALUES ('Hanley')
+INSERT INTO Branch (BranchName) VALUES ('Longton')
+INSERT INTO Branch (BranchName) VALUES ('Fenton')
