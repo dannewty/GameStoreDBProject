@@ -9,7 +9,6 @@ PostalCode VARCHAR (10),
 Country VARCHAR (25),
 ContactNumber INT )
 
-INSERT INTO Suppliers
-VALUES (1,'CentreSoft','David Smith','Purchasing Manager','Pavilion Dr','Birmingham','B6 7BB','UK',01216253388)
-VALUES (2,'Advantage Distribution','Kelly Chester','Order Administrator',' Forward House, 17 High St','Henley-in-Arden','B95 5AA','UK',01564330607)
-VALUES (3,'Creative Distribution','Sarah Hardy','Sales Representitive',' 119 Beddington Ln','Croydon','CR0 4TD','UK',02086643456)
+INSERT INTO Suppliers VALUES (1,'CentreSoft','David Smith','Purchasing Manager','Pavilion Dr','Birmingham','B6 7BB','UK',01216253388)
+INSERT INTO Suppliers VALUES (2,'Advantage Distribution','Kelly Chester','Order Administrator',' Forward House, 17 High St','Henley-in-Arden','B95 5AA','UK',01564330607)
+INSERT INTO Suppliers VALUES (3,'Creative Distribution','Sarah Hardy','Sales Representitive',' 119 Beddington Ln','Croydon','CR0 4TD','UK',02086643456)
