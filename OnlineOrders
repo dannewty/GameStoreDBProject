@@ -9,9 +9,8 @@ Address VARCHAR (40) NOT NULL,
 Postcode VARCHAR (20) NOT NULL,
 ShipperID INT FOREIGN KEY REFERENCES Shippers (ShipperID), )
 
-INSERT INTO OnlineOrders
-VALUES ('20210511','20210520',10,'Hitman 3','Neil Brown','24 Galaxy Way','ST14 1HE',1)
-VALUES ('20210511','20210520',19,'Pokemon Sword','Holly Wilson','107 Duke Street','ST4 6BY',1)
-VALUES ('20210511','20210520',2,'Pokemon Sword','Rebecca Arnold','611 Lightwood Road','ST3 7EZ',2)
-VALUES ('20210511','20210520',2,'Marvels Avengers','Daniel Benn','17 Silver Street','ST6 4ES',2)
-VALUES ('20210511','20210520',12,'Immortals:Fenyx Rising','Craig Cook','10 Harley Avenue','ST10 3HP',2)
+INSERT INTO OnlineOrders VALUES ('20210511','20210520',10,'Hitman 3','Neil Brown','24 Galaxy Way','ST14 1HE',1)
+INSERT INTO OnlineOrders VALUES ('20210511','20210520',19,'Pokemon Sword','Holly Wilson','107 Duke Street','ST4 6BY',1)
+INSERT INTO OnlineOrders VALUES ('20210511','20210520',2,'Pokemon Sword','Rebecca Arnold','611 Lightwood Road','ST3 7EZ',2)
+INSERT INTO OnlineOrders VALUES ('20210511','20210520',2,'Marvels Avengers','Daniel Benn','17 Silver Street','ST6 4ES',2)
+INSERT INTO OnlineOrders VALUES ('20210511','20210520',12,'Immortals:Fenyx Rising','Craig Cook','10 Harley Avenue','ST10 3HP',2)
