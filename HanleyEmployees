@@ -1,0 +1,27 @@
+CREATE TABLE HanleyEmployees (
+EmployeeID INT PRIMARY KEY,
+FirstName VARCHAR (40),
+LastName VARCHAR (40),
+Title VARCHAR (30),
+BirthDate Date,
+HireDate Date,
+Address VARCHAR (40),
+City VARCHAR (30),
+PostalCode VARCHAR (15) )
+
+INSERT INTO HanleyEmployees VALUES (1,'Charity','Case','Shop Floor','19860608','20040321','608 Lightwood Road','Stoke-On-Trent','ST37EQ')
+INSERT INTO HanleyEmployees VALUES (2,'Hazel','Nutt','Assistant','19880120','20081005','17 Watson Street','Stoke-On-Trent','ST47EY')
+INSERT INTO HanleyEmployees VALUES (3,'Jack','Pott','Shop Floor','19900917','20190422','30 Stanley Road','Stoke-On-Trent','ST47PN')
+INSERT INTO HanleyEmployees VALUES (4,'Aaron','Dunlap','Shop Floor','19910121','20150701','25 Tarragon Drive','Stoke-On-Trent','ST37YE')
+INSERT INTO HanleyEmployees VALUES (5,'Abbie','Couch','Store Manager','19851105','20111203','17 Sidmouth Avenue','Stoke-On-Trent','ST50QN')
+INSERT INTO HanleyEmployees VALUES (6,'Jaden','Marriot','Shop Floor','19970629','20200224','7 Kwingsford Place','Stoke-On-Trent','ST62NN')
+INSERT INTO HanleyEmployees VALUES (7,'Jessica','Walker','Shop Floor','19900508','20110914','11 Weldon Avenue','Stoke-On-Trent','ST36PN')
+INSERT INTO HanleyEmployees VALUES (8,'Gareth','Moore','Shop Floor Coordinator','19820120','20090708','30 Linda Road','Stoke-On-Trent','ST65NB')
+INSERT INTO HanleyEmployees VALUES (9,'James','Wood','Shop Floor','19910324','20160521','440 Blurton Road','Stoke-On-Trent','ST33AJ')
+
+ALTER TABLE HanleyEmployees 
+ADD BranchID INT FOREIGN KEY REFERENCES Branch (BranchID)
+
+UPDATE HanleyEmployees
+SET BranchID =  1 
+-- the BranchID references BranchID from the Branch table, therefore setting the BranchID to 1 will tell the user that a specific employee works at the Hanley branch
