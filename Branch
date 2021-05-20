@@ -7,3 +7,13 @@ ManagerID INT FOREIGN KEY REFERENCES Employees (EmployeeID),
 INSERT INTO Branch (BranchName) VALUES ('Hanley')
 INSERT INTO Branch (BranchName) VALUES ('Longton')
 INSERT INTO Branch (BranchName) VALUES ('Fenton')
+
+ALTER TABLE Branch 
+ADD AssistantID INT FOREIGN KEY REFERENCES Employees (EmployeeID)
+
+ALTER TABLE Branch 
+ADD CoordinatorID INT FOREIGN KEY REFERENCES Employees (EmployeeID)
+
+UPDATE Branch 
+SET ManagerID = 5 
+WHERE BranchID = 1 
