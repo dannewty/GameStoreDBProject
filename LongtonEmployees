@@ -1,0 +1,22 @@
+CREATE TABLE LongtonEmployees (
+EmployeeID INT PRIMARY KEY,
+FirstName VARCHAR (40),
+LastName VARCHAR (40),
+Title VARCHAR (30),
+BirthDate Date,
+HireDate Date,
+Address VARCHAR (40),
+City VARCHAR (30),
+PostalCode VARCHAR (15) )
+
+INSERT INTO LongtonEmployees VALUES (10,'Kylie','Howard','Branch Manager','19900620','20151201','4 Heathcote Street','Stoke-On-Trent','ST74AA')
+INSERT INTO LongtonEmployees VALUES (11,'Ashley','Beech','Assistant Manager','19910423','20160702','84 Church Street','Stoke-On-Trent','ST41BS')
+INSERT INTO LongtonEmployees VALUES (12,'Wayne','Latham','Shop Floor Coordinator','19910513','20160210','Chistchurch House Stone','Stoke-On-Trent','ST158BZ')
+INSERT INTO LongtonEmployees VALUES (13,'Sarah','Williams','Shop Floor','20011005','20200125','47 Derby Street, Leek','Stoke-On-Trent','ST136HU')
+INSERT INTO LongtonEmployees VALUES (14,'Rebecca','Clarke','Shop Floor','19980707','20111121','66 Derby Street, Leek','Stoke-On-Trent','ST135AJ')
+INSERT INTO LongtonEmployees VALUES (15,'Jessica','Smith','Shop Floor','19991108','20140605','30 High Street, Eccleshall','Stoke-On-Trent','ST216BZ')
+INSERT INTO LongtonEmployees VALUES (16,'Ryan','Tansley','Shop Floor','19990324','20140605','36 High Street Newcastle Under Lyme','Stoke-On-Trent','ST51QL')
+INSERT INTO LongtonEmployees VALUES (17,'Lewis','Powell','Shop Floor','19850426','20170819','35 Ironmarket, Newcastle Under Lyme','Stoke-On-Trent','ST51RP')
+INSERT INTO LongtonEmployees VALUES (18,'Darren','Hughes','Shop Floor','19870426','20170919','24 Millrise Road','Stoke-On-Trent','ST27BW')
+INSERT INTO LongtonEmployees VALUES (19,'Grace','Mcgee','Shop Floor','19870426','20190511','5 King Street Newcastle Under Lyme','Stoke-On-Trent','ST51EN')
+INSERT INTO LongtonEmployees VALUES (20,'Sadie','Cooper','Shop Floor','19800401','20130216','18 Withies Road, Trent Vale','Stoke-On-Trent','ST45QR')
