@@ -1,7 +1,7 @@
 CREATE TABLE Branch (
 BranchID INT PRIMARY KEY IDENTITY,
 BranchName VARCHAR (40) NOT NULL,
-ManagerID INT FOREIGN KEY REFERENCES Employees (EmployeeID),
+ManagerID INT 
 )
 
 INSERT INTO Branch (BranchName) VALUES ('Hanley')
@@ -9,10 +9,10 @@ INSERT INTO Branch (BranchName) VALUES ('Longton')
 INSERT INTO Branch (BranchName) VALUES ('Fenton')
 
 ALTER TABLE Branch 
-ADD AssistantID INT FOREIGN KEY REFERENCES Employees (EmployeeID)
+ADD AssistantID INT 
 
 ALTER TABLE Branch 
-ADD CoordinatorID INT FOREIGN KEY REFERENCES Employees (EmployeeID)
+ADD CoordinatorID INT 
 
 UPDATE Branch 
 SET ManagerID = 5 
