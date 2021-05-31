@@ -17,3 +17,24 @@ ADD CoordinatorID INT
 UPDATE Branch 
 SET ManagerID = 5 
 WHERE BranchID = 1 
+
+UPDATE Branch 
+SET AssistantID = 2
+WHERE BranchID = 1 
+
+UPDATE Branch 
+SET CoordinatorID = 8
+WHERE BranchID = 1 
+
+UPDATE Branch 
+SET ManagerID = 10 
+WHERE BranchID = 2 
+
+UPDATE Branch 
+SET AssistantID = 11
+WHERE BranchID = 2 
+
+UPDATE Branch
+SET CoordinatorID = 12
+WHERE BranchID = 2 
+
